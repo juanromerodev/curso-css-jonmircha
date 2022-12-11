@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es" class="dark-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efectos Visuales en CSS</title>
+    <link rel="stylesheet" href="css/visual-effects.css">
+</head>
+<body>
+    <h1>Efectos Visuales en CSS</h1>
+    <h2>Sombras</h2>
+    <div class="box shadows">
+        <p>Sombras al texto</p>
+    </div>
+    <h2>Sombras multiples</h2>
+    <div class="box shadows-multiple">
+        <p>Sombras al texto</p>
+    </div>
+    <h2>Filtro de sombras</h2>
+    <div class="box drop-shadow">
+        <img src="assets/arbol.png" alt="Niño junto al arbol">
+    </div>
+    <hr>
+    <h2>Degradados</h2>
+    <h3>Lineal</h3>
+    <div class="box linear-gradient"></div>
+    <h3>Radial</h3>
+    <div class="box radial-gradient"></div>
+    <h3>Conico</h3>
+    <div class="box conic-gradient"></div>
+    <h3>Repetir degradados</h3>
+    <div class="box repeat-gradient-linear"></div>
+    <div class="box repeat-gradient-radial"></div>
+    <div class="box repeat-gradient-conic"></div>
+    <h3>Graficas con degradados</h3>
+    <div class="box chart-gradient"></div>
+    <div class="box donut-gradient"></div>
+    <hr>
+    <h3>Filtros en CSS</h3>
+    <article class="card">
+        <img class="filter" src="assets/puesta-sol.jpg" alt="">
+    </article>
+    <h4>Filtros multiples</h4>
+    <article class="card">
+        <img class="multiple-filters" src="assets/puesta-sol.jpg" alt="">
+    </article>
+    <h4>Filtros a fondos</h4>
+    <article class="card relative">
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol">
+        <div class="backdrop-filter">
+            <h5>Puesta de sol</h5>
+        </div>
+    </article>
+    <h4>Filtros multiples a fondos</h4>
+    <article class="card relative">
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol">
+        <div class="backdrop-filter-multiple">
+            <h5>Puesta de sol</h5>
+        </div>
+    </article>
+    <h4>Modo Dark/Light con Filtros</h4>
+    <article class="card">
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol">
+    </article>
+    <hr>
+    <h4>Modo de mezcla</h4>
+    <article class="card relative blend-modes">
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol">
+        <img src="assets/arbol.png" alt="Arbol" class="absolute">
+    </article>
+    <hr>
+    <h4>Mascaras</h4>
+    <article class="card clip-path">
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol">
+    </article>
+    <hr>
+    <h4>Formas</h4>
+    <article class="shapes">
+        <h5>Ejemplos de formas y siluetas entre textos e imagenes</h5>
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol" class="float-left shape-1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dlor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol" class="float-right shape-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dlor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <img src="assets/puesta-sol.jpg" alt="Puesta de sol" class="float-left shape-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+        <p>Lorem ipsum dlor sit amet consectetur adipisicing elit. Est soluta, laudantium aliquid iste ipsum rem maxime excepturi illo libero veritatis quis perspiciatis vero accusamus cumque, harum id quisquam commodi doloribus.</p>
+
+    </article>
+
+    <a href="index.html#temario-css">☝️</a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
